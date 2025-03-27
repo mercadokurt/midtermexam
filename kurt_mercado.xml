@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <picture>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRRbSjm0tGFCkSlIMtz_B_lnDxsmczjjPn4NCuXqIoosPdDuWnmIjra-AWYO2l5NX1lnONcluswnLGcP3c0SMETBQ</picture>
+        <name>Judy Ann Santos</name>
+        <course>BSIT</course>
+        <year_section>3AG2</year_section>
+        <adviser>Mr. Reyes</adviser>
+        <school_year>2024-2025</school_year>
+    </student>
+    <student>
+        <picture>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcStGzrzYCiO3lFW2pJFjT9Xxfy6uMFDmep5GhitsKw3Z2vB6AIx5cKOk9B2MXAmyi4EsuFy7vWyM08ZxffK3u5VQA</picture>
+        <name>Ryan Agoncillo</name>
+        <course>BSIT</course>
+        <year_section>3AG2</year_section>
+        <adviser>Ms. Dela Rosa</adviser>
+        <school_year>2024-2025</school_year>
+    </student>
+    <student>
+        <picture>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBx7AGUKCoLhXK9KUhFHr1lwSfT-D2RtoQjNi2t0aRD_0MTzbP2W0nToeJbW7fmJMar7X-IDVHlSPvaYgkTKg__g</picture>
+        <name>Zaijan Jaranilla</name>
+        <course>BSIT</course>
+        <year_section>3AG2</year_section>
+        <adviser>Mr. Reyes</adviser>
+        <school_year>2024-2025</school_year>
+    </student>
+    <student>
+        <picture>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRgf3Io9sFeaA1412SnBm7DHv5l1HNHo04CU7GnP-UgXdezcziTBips9WcW9gW6ZjjbhipiXXoUIWcVnSGokcHLJQ</picture>
+        <name>Jillian Ward</name>
+        <course>BSIT</course>
+        <year_section>3AG2</year_section>
+        <adviser>Ms. Dela Rosa</adviser>
+        <school_year>2024-2025</school_year>
+    </student>
+    <student>
+        <picture>https://s.yimg.com/os/en-SG/homerun/the_hive_asia_947/5722254bcd437768dc804d7c6e3d9a8a</picture>
+        <name>Charo Santos-Concio</name>
+        <course>BSIT</course>
+        <year_section>3AG2</year_section>
+        <adviser>Mr. Reyes</adviser>
+        <school_year>2024-2025</school_year>
+    </student>
+    <student>
+        <picture>https://images.summitmedia-digital.com/sap/images/2021/02/09/pep-eskinol-mainimage-3-1612852128.jpg</picture>
+        <name>Maris Racal</name>
+        <course>BSIT</course>
+        <year_section>3AG2</year_section>
+        <adviser>Ms. Dela Rosa</adviser>
+        <school_year>2024-2025</school_year>
+    </student>
+    <student>
+        <picture>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSI6X5iEx6LbsI-_MSHPCZs_Vu4RI1xXOoeL0jMNQ6vY_lp4C6IqF5a7m-XqjJYxF_eL1CYQlaMcQyTvw--kcocNA</picture>
+        <name>Cherry Pie Picache</name>
+        <course>BSIT</course>
+        <year_section>3AG2</year_section>
+        <adviser>Mr. Reyes</adviser>
+        <school_year>2024-2025</school_year>
+    </student>
+    <student>
+        <picture>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-0mY4HSgRfDaeT4c2I7q7MDn4iZAg3g0VlqgG5XBXmIOqTMQVo2LEoexlfiR8_g61y12cTB2hVutMNaAh6iG7Sw</picture>
+        <name>Richard Yap</name>
+        <course>BSIT</course>
+        <year_section>3AG2</year_section>
+        <adviser>Ms. Dela Rosa</adviser>
+        <school_year>2024-2025</school_year>
+    </student>
+    <student>
+        <picture>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNxzdf00cxh86-03SqTNj4ku8pc4HOHNIEMceFBcJFs3kdl4Qi5qEyHCVRKofEOCAQzSwUVV9kwvJWLY_k0ufSTA</picture>
+        <name>Sylvia Sanchez</name>
+        <course>BSIT</course>
+        <year_section>3AG2</year_section>
+        <adviser>Mr. Reyes</adviser>
+        <school_year>2024-2025</school_year>
+    </student>
+    <student>
+        <picture>https://m.media-amazon.com/images/M/MV5BNTIxOTgzYTctM2Q4My00ODc2LWJiNGYtZDNhMzVmN2JjZGVjXkEyXkFqcGc@._V1_.jpg</picture>
+        <name>Dante Rivero</name>
+        <course>BSIT</course>
+        <year_section>3AG2</year_section>
+        <adviser>Ms. Dela Rosa</adviser>
+        <school_year>2024-2025</school_year>
+    </student>
+</students>

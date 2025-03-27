@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Users</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            margin: 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            text-align: center;
+            margin: 10px 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            border: 1px solid #ccc;
+            padding: 15px;
+            width: 280px;
+            background: #fff;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .card p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Library Users</h1>
+
+<div class="container" id="student-container"></div>
+
+<script>
+    fetch('kurt_mercado.xml')
+        .then(response => response.text())
+        .then(data => {
+            const parser = new DOMParser();
+            const xml = parser.parseFromString(data, "application/xml");
+            const students = xml.getElementsByTagName("student");
+            
+            const container = document.getElementById('student-container');
+            
+            for (let i = 0; i < students.length; i++) {
+                const picture = students[i].getElementsByTagName("picture")[0].textContent;
+                const name = students[i].getElementsByTagName("name")[0].textContent;
+                const course = students[i].getElementsByTagName("course")[0].textContent;
+                const yearSection = students[i].getElementsByTagName("year_section")[0].textContent;
+                const adviser = students[i].getElementsByTagName("adviser")[0].textContent;
+                const schoolYear = students[i].getElementsByTagName("school_year")[0].textContent;
+
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                    <img src="${picture}" alt="${name}">
+                    <p><strong>${name}</strong></p>
+                    <p>${course}</p>
+                    <p>${yearSection}</p>
+                    <p>${adviser}</p>
+                    <p>${schoolYear}</p>
+                `;
+                container.appendChild(card);
+            }
+        })
+        .catch(error => console.error('Error loading XML:', error));
+</script>
+
+</body>
+</html>
